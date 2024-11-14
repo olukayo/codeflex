@@ -35,6 +35,9 @@ h2{
   display: flex;
   justify-content: center;
 }
+.Service ol li{
+  font-weight: 700;
+}
 .contact{
   background: rgb(221, 200, 173);
 }
