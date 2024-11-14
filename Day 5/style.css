@@ -31,4 +31,42 @@ list-style-type: none;
 }
 h2{
   color: rgb(132, 15, 15);
+  align-items:center ;
+  display: flex;
+  justify-content: center;
+}
+.contact{
+  background: rgb(221, 200, 173);
+}
+.contact p{
+  justify-content: center;
+  display: flex;
+  
+}
+.contact p a{
+  
+  text-decoration: none;
+  color: azure;
+
+}
+.footer{
+  display: flex;
+  justify-content: center;
+}
+.social ul{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.social ul li {
+  list-style-type: none;
+  
+ 
+  
+  
+}
+.social ul li a{
+  text-decoration: none;
+  color: rgb(28, 105, 141);
+  
 }
