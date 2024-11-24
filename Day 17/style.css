@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.container p{
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.btn{
+  padding: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  background: rgb(53, 182, 53);
+  border: none;
+  font-weight: 600;
+}
+.btn:hover {
+  background: green;
+  color: whitesmoke;
+}
