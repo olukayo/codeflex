@@ -127,6 +127,26 @@ footer a{
   text-decoration: none;
   color: white;
 }
+.btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.btn button{
+  padding: 8px;
+  border-radius: 10px;
+  cursor: pointer;
+  background: rgb(240, 161, 64);
+  border: none;
+  color: white;
+  font-weight: 600;
+}
+.btn button:hover{
+  background: rgb(196, 118, 24);
+  transition: 1s ease-in;
+}
+
 
 @media (max-width: 768px){
   .nav{
