@@ -9,3 +9,4 @@ btn.addEventListener('click', function(){
 
   document.body.style.backgroundColor = randomColor;
 } );
+
