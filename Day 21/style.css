@@ -11,8 +11,37 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #f0f0f0;
+  flex-direction: column;
+  transition: background-color 0.5s ease;
 }
 
+button#toggle-theme {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+button#toggle-theme:hover {
+  background-color: #45a049;
+}
+
+/* Dark Mode */
+body.dark-mode {
+  background-color: #080b0e;
+  color: #ecf0f1;
+}
+
+button#toggle-theme.dark-mode {
+  background-color: #34495e;
+  color: #ecf0f1;
+}
 .container {
   border: 1px solid #ccc;
   max-width: 100%;
